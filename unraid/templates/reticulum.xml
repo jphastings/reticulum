@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Reticulum</Name>
+  <Repository>jphastings/reticulum</Repository>
+  <Registry>https://hub.docker.com/r/jphastings/reticulum</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>true</Privileged>
+  <Support>https://github.com/jphastings/reticulum/issues</Support>
+  <Project>https://github.com/jphastings/reticulum</Project>
+  <Overview>Runs RNSd</Overview>
+  <Category>Security: Tools: Network:Other Status:Beta</Category>
+  <WebUI/>
+  <TemplateURL>https://raw.githubusercontent.com/jphastings/reticulum/main/unraid/templates/reticulum.xml</TemplateURL>
+  <Icon/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1650573771</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Config" Target="/root/.reticulum/" Default="/mnt/user/appdata/reticulum" Mode="ro" Description="Where the config data for Reticulum rnsd resides." Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/reticulum</Config>
+</Container>
